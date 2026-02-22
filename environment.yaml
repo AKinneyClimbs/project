@@ -1,0 +1,28 @@
+name: project-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - conda=25.11.1
+  - setuptools
+  - pip
+  - wheel
+  - conda-anaconda-telemetry[version='>=0.3.0']
+  - conda-anaconda-tos[version='>=0.2.2']
+  - conda-content-trust
+  - conda-libmamba-solver
+  - menuinst
+  - python.app
+  - anaconda-anon-usage
+  - anaconda-auth
+  - jupyterlab
+  - jupyterlab-git
+  - jupyterlab-spellchecker
+  - pandas
+  - jupyter-book
+  - nbconvert
+  - scikit-learn
+  - matplotlib
+  - ipkernel
+prefix: /opt/miniconda3
